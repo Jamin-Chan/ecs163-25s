@@ -5,12 +5,19 @@
 	<meta name="description" content="">
 	<title>D3 Example</title>
 </head>
-<body style="width:100%;height:100%;margin: 0;">
-	<svg width="100%" height="100%">
-
+<body style="width:100vw;height:100vh;margin: 0;">
+	<svg width="100%" height="55%">
 	</svg>
-
-	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<div id="parallel" style="width:100%;height:40%;"></div> 
+	<!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+	<script src="https://d3js.org/d3.v7.min.js"></script> 
+	<select id="colorSelector" style="margin-left: 20px; margin-bottom: 10px;">
+        <option value="age">Age</option>
+        <option value="studytime">Studytime</option>
+        <option value="failures">Failures</option>
+        <option value="absences">absences</option>
+        <option value="Pstatus">Parent Status</option>
+    </select>
 	<script src="main.js"></script>
 	<script>
 
